@@ -1,5 +1,0 @@
-function selectProduct(product, color) {
-  const output = document.getElementById("output");
-  output.innerText = `Ausgewählt: ${product}`;
-  document.body.style.background = `linear-gradient(135deg, ${color}, #ffecd2)`;
-}
