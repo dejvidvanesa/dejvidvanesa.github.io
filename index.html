@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glow Up</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="start-screen">
+    <h1>Let's Glow</h1>
+  </div>
+
+  <div class="app">
+    <h2>Wähle dein Make-up</h2>
+    <div class="buttons">
+      <button onclick="selectProduct('Lippenstift', '#e91e63')">Lippenstift</button>
+      <button onclick="selectProduct('Lidschatten', '#3f51b5')">Lidschatten</button>
+      <button onclick="selectProduct('Foundation', '#ffccbc')">Foundation</button>
+      <button onclick="selectProduct('Augenbrauen', '#795548')">Augenbrauen</button>
+    </div>
+    <div class="output" id="output">Kein Produkt ausgewählt</div>
+    <a href="https://www.sephora.de" class="glow-button" target="_blank">Glow & Go!</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
